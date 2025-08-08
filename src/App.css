@@ -1,0 +1,15 @@
+.suggested-recipe-container {
+    color: #475467;
+    line-height: 28px;
+    font-size: 1.125rem;
+    font-weight: 400;
+    padding: 0 5vw;
+}
+.default-rec-con >h2{
+    padding: 2vw 5vw;
+}
+
+.suggested-recipe-container ul li, .suggested-recipe-container ol li {
+    margin-bottom: 8px;
+    margin-left: 30px;
+}

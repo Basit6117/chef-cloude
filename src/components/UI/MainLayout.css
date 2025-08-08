@@ -1,0 +1,75 @@
+main{
+ min-height: 100vh;
+}
+.search-box {
+    padding: 2vw 5vw;
+    display:flex;
+    justify-content: center;
+}
+.search-box input{
+   width: 70vw;  
+   height: 50px;
+   border: 1px solid #D1D5DB;
+   padding: 5px 10px;
+     border-radius: 7px;
+      box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+      flex-grow: 1;
+}
+.search-box button{
+    background-color: #141413;
+    width: 10vw;
+    height: 50px;
+    padding: 5px;
+    margin-left: 1.4vw;
+    color: white;
+    border-radius: 7px;
+    font-size: 1.125rem;
+    font-weight: 500;
+      white-space: nowrap;
+      min-width: 80px;
+
+}
+.search-box button::before{
+  content: "+";
+  margin-right: 8px;
+}
+
+.ingredients-container{
+  padding: 0 5vw;
+  width: 50vw;
+}
+.ingredients-container > h2{
+letter-spacing: 0.6px;
+font-size: 3.5vw;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 500;
+margin-bottom: 25px;
+ 
+}
+.list{
+  padding: 4px;
+}
+.get-recipe{
+  background-color: rgb(233, 229, 229);
+  height: 150px;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 5vw;
+ display: flex;
+ align-items: center;
+ gap: 4vw;
+}
+.get-recipe .child1 > h4{
+letter-spacing: 1px;
+font-size: 18px;
+line-height: 30px;
+}
+.btn{
+  margin-top: 10px;
+}
+.btn > button{
+  padding: 10px;
+  border-radius: 5px;
+  background-color:#D17557;
+  border: none;
+}
